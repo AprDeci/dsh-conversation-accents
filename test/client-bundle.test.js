@@ -121,7 +121,7 @@ function loadPlugin(handoff) {
         useState: (value) => [value, () => {}]
       };
     }
-    if (specifier === "@deepseek-ai/dsh-client-runtime/client") return runtimeStub();
+    if (specifier === "@deepseek-ai/dsh-client-store") return runtimeStub();
     if (specifier === "@deepseek-ai/dsh-client-ui-primitives") {
       return {
         IconBrowseOutline16: icon,

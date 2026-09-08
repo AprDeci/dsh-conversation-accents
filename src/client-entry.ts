@@ -132,7 +132,7 @@ window.__ModuleLoader__.load({
   id: "dsh-conversation-accents",
   factory: (require) => {
     const React = require("react") as ReactRuntime;
-    const { defineStore } = require("@deepseek-ai/dsh-client-runtime/client") as {
+    const { defineStore } = require("@deepseek-ai/dsh-client-store") as {
       defineStore(declaration: Record<string, unknown>): unknown;
     };
     const {

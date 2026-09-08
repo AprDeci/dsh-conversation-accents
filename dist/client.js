@@ -5618,7 +5618,7 @@ ${semanticAccentCss()}`;
     id: "dsh-conversation-accents",
     factory: (require2) => {
       const React = require2("react");
-      const { defineStore } = require2("@deepseek-ai/dsh-client-runtime/client");
+      const { defineStore } = require2("@deepseek-ai/dsh-client-store");
       const {
         IconBrowseOutline16,
         IconCheckOutline16,

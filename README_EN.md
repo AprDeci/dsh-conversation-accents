@@ -54,7 +54,7 @@ dsh plugin --profile web remove dsh-conversation-accents
 
 ## Compatibility
 
-The current release is developed and tested against DSH `0.1.0-rc.6`.
+The current release is developed and tested against DSH `0.1.2-rc.1`. For DSH `0.1.0-rc.x`, use `0.1.0-alpha.1`.
 
 The plugin reads DOM attributes from the DSH conversation view. After upgrading DSH, rerun the tests and verify assistant replies, tool calls, and Think blocks.
 

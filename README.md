@@ -54,7 +54,7 @@ dsh plugin --profile web remove dsh-conversation-accents
 
 ## 兼容性
 
-当前版本针对 DSH `0.1.0-rc.6` 开发和测试。
+当前版本针对 DSH `0.1.2-rc.1` 开发和测试。DSH `0.1.0-rc.x` 请使用 `0.1.0-alpha.1`。
 
 插件需要读取 DSH 会话页面的 DOM 属性。DSH 升级后，如果会话结构发生变化，请重新运行测试并检查助手回复、工具调用和 Think 区域。
 

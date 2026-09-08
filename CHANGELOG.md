@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 0.1.0-alpha.2 - 2026-09-08
+
+- Fixed DSH `0.1.2` compatibility: the client bundle now requires `@deepseek-ai/dsh-client-store` instead of the removed `@deepseek-ai/dsh-client-runtime/client` module-table entry, and the client inject list targets `@deepseek-ai/dsh-client-connection`.
+- This release requires DSH `0.1.2-alpha.2` or later; use `0.1.0-alpha.1` for DSH `0.1.0-rc.x`.
+
 ## 0.1.0-alpha.1 - Unreleased
 
 - Added scoped assistant Markdown semantic palettes and custom palette import/export.

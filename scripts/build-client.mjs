@@ -35,7 +35,7 @@ await build({
   },
   external: [
     "react",
-    "@deepseek-ai/dsh-client-runtime/client",
+    "@deepseek-ai/dsh-client-store",
     "@deepseek-ai/dsh-client-ui-primitives"
   ]
 });
