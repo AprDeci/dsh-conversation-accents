@@ -59,7 +59,7 @@ jobs:
           echo "tag=$tag" >> "$GITHUB_OUTPUT"
 
       - name: Update npm for Trusted Publishing
-        run: npm install --global npm@latest
+        run: npm install --global npm@^11
 
       - name: Publish to npm with Trusted Publishing
         run: npm publish --access public --provenance --tag "${{ steps.npm-tag.outputs.tag }}"
