@@ -296,7 +296,7 @@ test("generated CSS is limited to assistant Markdown semantic selectors", async 
   const shikiLines = css.split("\n").filter((line) => line.includes("--shiki-token-"));
   assert.ok(shikiLines.length > 0);
   assert.ok(shikiLines.every((line) => line.includes(".md-code-block")));
-  assert.match(css, /:not\(pre\) > code \{ [^}]*background: var\(--dsh-conversation-inline-code-bg\);/);
+  assert.match(css, /:not\(pre\) > code \{ [^}]*background: var\(--dsh-conversation-inline-code-bg\) !important;/);
   assert.match(css, /--dsh-conversation-inline-code-bg: #EEEEEE/);
   assert.match(css, /body\[data-ds-dark-theme\] \[data-chat-flow-kind="assistant-step"\] \{ --dsh-conversation-strong: #FFFFFF;/);
 });

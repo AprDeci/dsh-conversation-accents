@@ -83,7 +83,7 @@ function semanticAccentCss(): string {
     `${selector} :is(h1, h2, h3, h4, h5, h6) { color: var(--dsh-conversation-heading); }`,
     `${selector} a { color: var(--dsh-conversation-link); }`,
     `${selector} blockquote { color: var(--dsh-conversation-quote); border-left-color: var(--dsh-conversation-quote-border); }`,
-    `${selector} :not(pre) > code { color: var(--dsh-conversation-inline-code); background: var(--dsh-conversation-inline-code-bg); }`,
+    `${selector} :not(pre) > code { color: var(--dsh-conversation-inline-code); background: var(--dsh-conversation-inline-code-bg) !important; }`,
     `${selector} th { color: var(--dsh-conversation-strong); }`,
     `${selector} li::marker { color: var(--dsh-conversation-emphasis); }`,
     `${selector} .md-code-block { --shiki-token-keyword: var(--dsh-conversation-code-keyword); --shiki-token-string: var(--dsh-conversation-code-string); --shiki-token-string-expression: var(--dsh-conversation-code-string); --shiki-token-function: var(--dsh-conversation-code-function); --shiki-token-constant: var(--dsh-conversation-code-constant); --shiki-token-comment: var(--dsh-conversation-code-comment); --shiki-token-parameter: var(--dsh-conversation-code-parameter); --shiki-token-punctuation: var(--dsh-conversation-code-punctuation); --shiki-token-link: var(--dsh-conversation-link); }`
